@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sprinter Boss</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #0f0f0f;
+      color: #ccc;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #bbb;
+    }
+
+    .cta {
+      background-color: #ffcc00;
+      color: #000;
+      padding: 15px 30px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .feature {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #1a1a1a;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sprinter Boss</h1>
+    <p>Rent a sprinter van. Be your own boss. Start your journey today.</p>
+    <a href="#start" class="cta">Get Started</a>
+  </header>
+
+  <section>
+    <h2>How It Works</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>1. Choose a Van</h3>
+        <p>Pick from our fleet of high-quality sprinter vans, fully serviced and ready to roll.</p>
+      </div>
+      <div class="feature">
+        <h3>2. Start Earning</h3>
+        <p>Use it for delivery, logistics, or launch your mobile business—your call.</p>
+      </div>
+      <div class="feature">
+        <h3>3. Keep the Profits</h3>
+        <p>Work on your terms. No contracts, no cut—just hustle and earn.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why Sprinter Boss?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>No Credit Check</h3>
+        <p>We focus on drive, not credit history.</p>
+      </div>
+      <div class="feature">
+        <h3>Flexible Rentals</h3>
+        <p>Rent daily, weekly, or monthly. You’re in control.</p>
+      </div>
+      <div class="feature">
+        <h3>Maintenance Included</h3>
+        <p>All vans are serviced, insured, and ready to go.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="start">
+    <h2>Start Now</h2>
+    <p>Join hundreds of self-made entrepreneurs on the road to success.</p>
+    <a href="#" class="cta">Reserve Your Van</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Sprinter Boss. All rights reserved.
+  </footer>
+
+</body>
+</html>
